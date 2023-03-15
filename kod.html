@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Конвертер валют</title>
+    <link href="kod.css" rel="stylesheet">
+    <link href="/build/static/css/main.9d10a6bc.css" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <h1>Курс валют</h1>
+    <div class="currency">
+        <span>1 USD = <span id="usd">...</span> UAH</span>
+        <span>1 EUR = <span id="eur">...</span> UAH</span>
+    </div>
+</header>
+
+<main>
+    <div id="root"></div>
+</main>
+
+<div class="instruction-container">
+    <p class="instruction"><b>Інструкція:</b></p>
+    <ol class="instruction">
+        <li>Курс валюти зображений ліворуч в кутку, приходить з публічного API Національного банку України.</li>
+        <li>Програма конвертує валюту "From"-"To", також у зворотньому порядку "To"-"From".</li>
+        <li>Конвертування відбувається автоматично при вводі число в "From" або "To" результат відображений у протележному input, тобто "To" або "From" відповідно.</li>
+        <li>При вводі від'ємних чисел програма повертає 0 у протележний input.</li>
+        <li>При зміні валюти в будь-якому section в обох input виводиться 0.</li>
+        <li>Результат заокруглюється до другого знака після коми.</li>
+    </ol>
+</div>
+
+<script src="/build/static/js/main.b613c78e.js"></script>
+<div class="root"> </div>
+</body>
+</html>

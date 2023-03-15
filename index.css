@@ -1,0 +1,46 @@
+.App {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h1 {
+  font-size: 25px;
+  margin: 20px 0;
+}
+
+.converter {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin-bottom: 50px;
+}
+
+.label {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.select {
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+}
+
